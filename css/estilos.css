@@ -4,10 +4,11 @@
 
 html{
 	font-family: 'Lato', sans-serif;
+	background-color: #F7EBEB;
 }
 
 .lateral{
-	background-color: #34AFEA;
+	background-color: #4ABCF3;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -28,6 +29,7 @@ html{
 
 .perfil__foto{
 	width: 100%;
+	border: 
 }
 
 .perfil__nombres{
@@ -85,6 +87,12 @@ html{
 
 .proyecto__imagen{
 	width: 100%;
+	border-top-left-radius: 200px 200px;
+	border-top-right-radius: 50px 100px;
+	border-bottom-right-radius: 200px 200px;
+	border-bottom-left-radius: 50px 100px;
+	filter: drop-shadow(5px 5px 10px #444);
+
 }
 
 .proyecto__titulo{
@@ -105,3 +113,6 @@ html{
 	text-transform: uppercase;
 }
 
+a { 
+    color: blue;
+}
