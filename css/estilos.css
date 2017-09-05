@@ -22,19 +22,19 @@ html{
 
 .perfil__circulo{
 	border-radius: 50%;
-	width: 250px;
-	height: 170px;
+	width: 150px;
+	height: 90px;
 	overflow: hidden;
+	box-shadow: 15px 15px 20px #444;
 }
 
 .perfil__foto{
 	width: 100%;
-	border: 
 }
 
 .perfil__nombres{
 	color: #fff;
-	font-size: 20px;
+	font-size: 22px;
 	margin-left: .5em;
 	width: 250px;
 }
@@ -44,16 +44,39 @@ html{
 	vertical-align: middle;
 }
 
-/*Informacion*/
+.perfil__idioma{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
 
-.informacion{
-	color: #0F6A62;
+.RRSS{
+	border: 2px solid grey;
+	padding: 5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.RRSS__imagen{
+	width: 32%;
+}
+
+.propiedad{
 	position: absolute;
 	bottom: 0;
 }
 
+/*Informacion*/
+
+.informacion{
+	color: #0F6A62;
+}
+
 .informacion__titulo{
-	font-size: 18px;	
+	font-size: 16px;	
+}
+
+.informacion__descripcion{
+	font-size: 13px;
 }
 
 /*Habilidades*/
@@ -67,7 +90,7 @@ html{
 	color: #fff;
 	font-size: 12px;
 	display: inline-block;
-	padding: 0.6em;
+	padding: 0.5em;
 	text-transform: uppercase;
 }
 
@@ -113,6 +136,7 @@ html{
 	text-transform: uppercase;
 }
 
-a { 
-    color: blue;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
