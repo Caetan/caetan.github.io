@@ -60,6 +60,16 @@ html{
 	width: 32%;
 }
 
+.newspapers{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	border: 2px solid grey;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
 /*Informacion*/
 
 .informacion{
@@ -95,6 +105,7 @@ html{
 	margin-left: 350px;
 	padding: 1em;
 	display: table;
+	margin-top: 180px;
 }
 
 .proyecto{
@@ -130,6 +141,42 @@ html{
 	padding: 0.6em;
 	text-transform: uppercase;
 }
+
+
+/*Noticias*/
+
+.noticias{
+	margin-left: 350px;
+	padding: 1em;
+	display: table;
+}
+
+.noticia{
+	padding: 1em;
+	display: table-cell;
+	width: 50%;
+}
+
+.noticia__imagen{
+	width: 100%;
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 5px 10px;
+	border-bottom-right-radius: 20px 20px;
+	border-bottom-left-radius: 5px 10px;
+	filter: drop-shadow(5px 5px 10px #444);
+
+}
+
+.noticia__titulo{
+	color: #29597C;
+	font-size: 18px;
+}
+
+.noticia__fuente{
+	color: #000000;
+	font-size: 12px;
+}
+
 
 a {
   color: inherit;
