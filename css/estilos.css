@@ -124,6 +124,17 @@ html{
 
 }
 
+
+.proyecto__imagenOCaml{
+	width: 60%;
+	border-top-left-radius: 200px 200px;
+	border-top-right-radius: 50px 100px;
+	border-bottom-right-radius: 200px 200px;
+	border-bottom-left-radius: 50px 100px;
+	filter: drop-shadow(5px 5px 10px #444);
+
+}
+
 .proyecto__titulo{
 	color: #29597C;
 	font-size: 18px;
