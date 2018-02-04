@@ -108,6 +108,13 @@ html{
 	margin-top: 180px;
 }
 
+
+.proyectosOcaml{
+	margin: auto;
+	padding: 1em;
+	display: table;
+}
+
 .proyecto{
 	padding: 1em;
 	display: table-cell;
