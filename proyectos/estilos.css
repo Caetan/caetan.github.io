@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Lato', sans-serif;
+	background-color: #F7EBEB;
+}
+
+.lateral{
+	background-color: #4ABCF3;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 350px;
+	padding: 1em;
+}
+
+
+/*Perfil*/
+
+.perfil__circulo{
+	border-radius: 50%;
+	width: 150px;
+	height: 90px;
+	overflow: hidden;
+	box-shadow: 15px 15px 20px #444;
+}
+
+.perfil__foto{
+	width: 100%;
+}
+
+.perfil__nombres{
+	color: #fff;
+	font-size: 22px;
+	margin-left: .5em;
+	width: 250px;
+}
+
+.perfil__nombres, .perfil__circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.perfil__idioma{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.RRSS{
+	border: 2px solid grey;
+	padding: 5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.RRSS__imagen{
+	width: 32%;
+}
+
+.newspapers{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	border: 2px solid grey;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+/*Informacion*/
+
+.informacion{
+	color: #0F6A62;
+}
+
+.informacion__titulo{
+	font-size: 16px;	
+}
+
+.informacion__descripcion{
+	font-size: 13px;
+}
+
+/*Habilidades*/
+
+.habilidades{
+	padding: 0;
+}
+
+.habilidad{
+	background-color: #0F6A62;
+	color: #fff;
+	font-size: 10px;
+	display: inline-block;
+	padding: 0.5em;
+	text-transform: uppercase;
+}
+
+/*Proyectos*/
+
+.proyectos{
+	margin-left: 350px;
+	padding: 1em;
+	display: table;
+	margin-top: 180px;
+}
+
+.proyecto{
+	padding: 1em;
+	display: table-cell;
+	width: 50%;
+}
+
+.proyecto__imagen{
+	width: 100%;
+	border-top-left-radius: 200px 200px;
+	border-top-right-radius: 50px 100px;
+	border-bottom-right-radius: 200px 200px;
+	border-bottom-left-radius: 50px 100px;
+	filter: drop-shadow(5px 5px 10px #444);
+
+}
+
+.proyecto__titulo{
+	color: #29597C;
+	font-size: 18px;
+}
+
+.proyecto__descripcion{
+	color: #797D7f;
+}
+
+.habilidad--proyecto{
+	background-color: #29597C;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0.6em;
+	text-transform: uppercase;
+}
+
+
+/*Noticias*/
+
+.noticias{
+	margin-left: 350px;
+	padding: 1em;
+	display: table;
+}
+
+.noticia{
+	padding: 1em;
+	display: table-cell;
+	width: 50%;
+}
+
+.noticia__imagen{
+	width: 100%;
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 5px 10px;
+	border-bottom-right-radius: 20px 20px;
+	border-bottom-left-radius: 5px 10px;
+	filter: drop-shadow(5px 5px 10px #444);
+
+}
+
+.noticia__titulo{
+	color: #29597C;
+	font-size: 18px;
+}
+
+.noticia__fuente{
+	color: #000000;
+	font-size: 12px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+footer{
+	float: right;
+    background: #B08B8B;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
