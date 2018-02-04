@@ -110,7 +110,8 @@ html{
 
 
 .proyectosOcaml{
-	margin: absolute;
+	margin-left: 100px;
+	margin-right: 100px;
 	padding: 1em;
 	display: table;
 }
