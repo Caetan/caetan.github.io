@@ -80,6 +80,8 @@ html{
 	width: 32%;
 }
 
+
+/*iconos submenus*/
 .newspapers{
 	position: absolute;
 	top: 25px;
@@ -88,26 +90,32 @@ html{
 	padding: 10px;
 	box-shadow: 10px 10px 5px #888888;
 	text-align: center;
+	height: 120px;
+    width: 150px;
 }
 
 .awards{
 	position: absolute;
 	top: 25px;
-	right: 175px;
+	right: 225px;
 	border: 2px solid grey;
 	padding: 10px;
 	box-shadow: 10px 10px 5px #888888;
 	text-align: center;
+	height: 120px;
+    width: 150px;
 }
 
 .formation{
 	position: absolute;
 	top: 25px;
-	right: 325px;
+	right: 425px;
 	border: 2px solid grey;
 	padding: 10px;
 	box-shadow: 10px 10px 5px #888888;
 	text-align: center;
+	height: 120px;
+    width: 150px;
 }
 
 
@@ -204,6 +212,8 @@ html{
 }
 
 
+
+
 /*Noticias*/
 
 .noticias{
@@ -245,6 +255,24 @@ html{
 }
 
 .premio{
+	margin-left: 200px;
+	padding: 1em;
+	font-size: 20px;
+	font-family: serif;
+}
+
+/*Formación*/
+.formacion__titulo{
+	color: #29597C;
+	font-size: 28px;
+}
+
+.formacion__subtitulo{
+	color: #29597C;
+	font-size: 20px;
+}
+
+.formacion{
 	margin-left: 200px;
 	padding: 1em;
 	font-size: 20px;
