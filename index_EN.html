@@ -1,3 +1,23 @@
+<!--**********************************************************************/
+
+Copyright (C) 2018  Caetán Tojeiro Carpente
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/agpl-3.0.html>
+
+/**********************************************************************-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,22 +61,25 @@
 		<ul class="habilidades">
 				<li class="habilidad">Cloud computing</li>
 				<li class="habilidad">Communication</li>
+				<li class="habilidad">Concurrency & Parallelism</li>
+				<li class="habilidad">Creativity</li>
 				<li class="habilidad">CSS</li>
+				<li class="habilidad">Databases</li>
 				<li class="habilidad">Elgg</li>
 				<li class="habilidad">Entrepreneurship</li>		
 				<li class="habilidad">Git</li>
-				<li class="habilidad">GitHub</li>
 				<li class="habilidad">HTML5</li>
+				<li class="habilidad">ITIL v3</li>
 				<li class="habilidad">Java</li>
 				<li class="habilidad">LaTeX</li>
 				<li class="habilidad">Leadership</li>
 				<li class="habilidad">Management</li>
 				<li class="habilidad">Marketing</li>
-				<li class="habilidad">MySQL</li>
 				<li class="habilidad">OCaml</li>
 				<li class="habilidad">PHP</li>
-				<li class="habilidad">Self-learning</li>
+				<li class="habilidad">Self-training</li>
 				<li class="habilidad">Social Networks</li>
+				<li class="habilidad">SQL</li>
 				<li class="habilidad">Teamwork</li>
 				<li class="habilidad">Work Methodologies</li>
 				<li class="habilidad">Writing Texts</li>
@@ -152,7 +175,7 @@
  	<div class="row">
 		<article class="proyecto">
 
-			<a href="https://www.overleaf.com/read/hpxmmhtwwmtx" target="_blank">
+			<a href="https://www.overleaf.com/read/hpxmmhtwwmtx" target="_blank" title="Click here for more information">
 				<img src="img/imagen_proyecto5.png" alt="" class="proyecto__imagen">
 				<h3 class="proyecto__titulo">CV developed with LaTeX</h3>
 			</a>
@@ -170,7 +193,7 @@
 
 		<article class="proyecto">
 	
-			<a href="projects/ocaml-projects.html" target="_blank">
+			<a href="projects/ocaml-projects.html" target="_blank" title="Click here for more information">
 				<img src="img/ocaml-proyectos.png" alt="" class="proyecto__imagen">
 				<h3 class="proyecto__titulo">Works with OCaml</h3>
 			</a>
@@ -185,6 +208,40 @@
 
 
 	<div>
+		
+	<div class="row">
+		<article class="proyecto">
+
+			<a href="https://github.com/Caetan/parallelizationMPI-numberPI" target="_blank" title="Click here for more information">
+				<img src="img/pi.png" alt="" class="proyecto__imagen">
+				<h3 class="proyecto__titulo">Parallelization of a PI estimatation PI using the method of integration.</h3>
+			</a>
+			
+			<p class="proyecto__descripcion">Parallelization of a secuential code which estimates PI using the method of integration. Implementation of Bcast collective MPI operation by two ways: with a tree calls and with a binomial tree.</p>
+				
+			<ul class="habilidades">
+				<li class="habilidad--proyecto">MPI</li>
+				<li class="habilidad--proyecto">C</li>
+				<li class="habilidad--proyecto">Parallelism</li>
+			</ul>
+		</article>
+
+		<article class="proyecto">
+
+			<a href="https://github.com/Caetan/parallelizationMPI-Mandelbrot" target="_blank" title="Click here for more information">
+				<img src="img/mandelbrot.png" alt="" class="proyecto__imagen">
+				<h3 class="proyecto__titulo">Parallelization of Mandelbrot calculation.</h3>
+			</a>
+				
+			<p class="proyecto__descripcion">Parallelization of a secuential code which calculates Mandelbrot fractal using MPI library. In addition, the code generates a documentation with computation times, number of flops, etc.</p>
+
+			<ul class="habilidades">
+				<li class="habilidad--proyecto">MPI</li>
+				<li class="habilidad--proyecto">C</li>
+				<li class="habilidad--proyecto">Parallelism</li>
+			</ul>
+		</article>
+	</div>
 	
 <!--
 	<div class="row">
@@ -228,7 +285,7 @@
 	</section>
 
 	<footer>
-		<p>*Design and development of web page made completely by Caetán Tojeiro Carpente*</p>
+		<p>GNU Affero General Public License 2018</p>
 	</footer>
 
 </body>

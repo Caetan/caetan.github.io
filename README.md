@@ -1,4 +1,10 @@
-<!--**********************************************************************/
+# caetan.github.io
+My Web Page & Portfolio
+
+Developed by Caetán Tojeiro Carpente
+
+
+**********************************************************************
 
 Copyright (C) 2017  Caetán Tojeiro Carpente
 
@@ -15,19 +21,4 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/agpl-3.0.html>
 
-/**********************************************************************-->
-
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="utf-8">
-	<title>Módulo de ofertas de empleo para Elgg</title>
-	<link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-<body>
-
-</body>
-</html>
+**********************************************************************
