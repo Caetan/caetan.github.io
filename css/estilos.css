@@ -204,18 +204,30 @@ html{
 	border-bottom-right-radius: 20px 20px;
 	border-bottom-left-radius: 5px 10px;
 	filter: drop-shadow(5px 5px 10px #444);
-
 }
 
 .noticia__titulo{
 	color: #29597C;
 	font-size: 18px;
+
 }
 
 .noticia__fuente{
 	color: #000000;
 	font-size: 12px;
 }
+
+.autor{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.license{
+	color: #000000;
+	font-size: 14px;
+}
+
 
 
 a {
@@ -224,9 +236,11 @@ a {
 }
 
 footer{
-	float: right;
+	float: center;
+	display: block;
     background: #B08B8B;
-    margin: 10px;
+    text-align: center;
     padding: 10px;
     box-shadow: 10px 10px 5px #888888;
 }
+
