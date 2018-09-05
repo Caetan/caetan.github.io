@@ -122,7 +122,7 @@ html{
 /*Proyectos*/
 
 .proyectos{
-	margin-left: 500px;
+	margin-left: 400px;
 	padding: 1em;
 	display: table;
 	margin-top: 180px;
@@ -229,18 +229,16 @@ html{
 }
 
 
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
 footer{
-	float: center;
+	margin-left: 350px;
 	display: block;
     background: #B08B8B;
     text-align: center;
     padding: 10px;
-    box-shadow: 10px 10px 5px #888888;
 }
 
